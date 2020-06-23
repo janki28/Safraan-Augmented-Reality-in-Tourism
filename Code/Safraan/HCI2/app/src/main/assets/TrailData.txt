@@ -1,0 +1,28 @@
+{
+	"data": 
+	[
+		{"name": "Heritage Trail",
+       	"image_src": ["sidi_main","","sidi_bashir_mosque_main","ahmed_shah_mosque_main","hutheesing_jain_temple_main"],
+       	"site_names": ["Sidi Saiyyed Mosque","Sidi Bashir Mosque","Adalaj Stepwell","Ahmed Shah Mosque","Hutheesing Jain Temple"],
+		"popularity": 1,
+		"numPlaces": 3},
+
+		{"name": "Western Trail",
+      	"image_src": ["calico_museum_main","vintage_main"],
+        "site_names": ["Calico Museum", "Vintage Car Museum"],
+		"popularity": 3,
+		"numPlaces": 2},
+
+		{"name": "The Gates Trail",
+		"image_src": ["teen_darwaza_main"],
+		"site_names": ["Teen Darwaza"],
+		"popularity": 5,
+		"numPlaces": 3},
+
+		{"name": "Random Walk Trail",
+		"image_src": ["river_front_main","kankaria_lake_main","gandhi_ashram_main"],
+     	"site_names": ["River Front","Kankaria Lake","Gandhi Ashram"],
+		"popularity": 4,
+		"numPlaces": 5}
+	]
+}

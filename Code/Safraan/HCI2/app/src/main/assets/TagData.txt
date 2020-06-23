@@ -1,0 +1,16 @@
+{
+	"data": 
+	[
+		{"name": "* Tomb *",
+		"site_names": ["Sidi Bashir Mosque", "Ahmed Shah Mosque", "Sidi Saiyyed Mosque"]},
+
+		{"name": "* Calligraphy *",
+		"site_names": ["Sidi Saiyyed Mosque", "Hutheesing Jain Temple", "Adalaj Stepwell", "Teen Darwaza"]},
+
+		{"name": "* Peace *",
+		"site_names": ["Badshahi Mosque","River Front","Gandhi Ashram"]},
+
+		{"name": "* Super cool awesome *",
+		"site_names": ["Sidi Saiyyed Mosque","River Front","Hutheesing Jain Temple","Calico Museum", "Vintage Car Museum"]}
+	]
+}

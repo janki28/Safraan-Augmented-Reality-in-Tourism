@@ -1,0 +1,11 @@
+package com.example.saad.hci;
+
+class WikitudeSDKConstants {
+	
+
+	/**
+	 * note that this key is only valid for this sample app, if you need one for your own application please visit www.wikitude.com (SDK Store)
+	 */
+	static final String WIKITUDE_SDK_KEY = "d2gChds/r2M2OKQaQnw7sUGnoCOCVUUBQ2uPtxsNdUBPKhxx7IbGtYNvZY9WdfdaOh9OxY1lS1VtkAj86zvPg11X490yRSkcdR+BDtRjY1RWVHglgkVJdOreF4Pq1MEv53GgepJIPunTLsMJ/7yjx+DfIZcPS7PF7+tqgVXKMxdTYWx0ZWRfX3S76x//er94ziXbuSFOZWZ4/51pTwF2zAxdBSK10NrmJB8OYx/mNTEQx1Wkhln8sJpRdkwLxCbVKEgBPJFUrkvnb8BxHr27/Tv3QDmYxBhu1Akp38DUVfGFaLZP0hHnfsYoQ1LTIT+7R7ed6u40u/PpV1kN6dXTovTmZdf+stkIOkiXjqGBjp7C/WMYocAoUs0jClwzy4etN1wm3/sUGV9i12yicVGdH290qfP2ykIVnthwCev5w/gV9CTkbB2JgU43yXXqW2Tpr+r9I8d46nx9LHrIlY3dYP2N19bjiJabVo37xQh0RyEjiQfFpDV7tqcsMx9hBKgijZ5b22Hr0QUP5c2aYIjQKM1C1mP/XNrn0nFm0WZ97Cy2wozaeijrWA0HP7W+hJ+TymCCCtnMdsIz2U+fIKVt1dGIyBO0ikUYp/MxLLHq1305W/SgBhWF06ull8xUAdNbK6EKvWIHKeBB0rSMvsmJa3By/ft0Y/i4bjzYW+oxtGsk+U7Uil/pJzHLaxIdFplNwwmAODaDrSrEo94vyzNYO3bGe0gDVhQjri5kENI1VayB/AxzyRd60zTjLcOjHw/sATfPLf5xg5/il/ItEHQy/JucCpEm0uQoxfvjWZFblfc=";
+
+}

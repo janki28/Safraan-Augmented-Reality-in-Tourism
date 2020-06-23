@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.example.saad.hci"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'com.squareup.picasso:picasso:2.3.2'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'wikitudesdk', ext: 'aar')
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation('com.mapbox.mapboxsdk:mapbox-android-sdk:9.0.0') {
+        exclude group: 'group_name', module: 'module_name'
+        implementation "com.mapbox.mapboxsdk:mapbox-android-navigation:0.42.6"
+        implementation "com.mapbox.mapboxsdk:mapbox-android-core:1.3.0"
+        implementation (name: 'libuvccamera-release', ext:'aar')
+        implementation (name: 'mapbox-vision_0.12.0', ext:'aar')
+        implementation (name: 'mapbox-vision-ar_0.12.0', ext:'aar')
+        implementation (name: 'mapbox-vision-safety_0.12.0', ext:'aar')
+        implementation "com.mapbox.mapboxsdk:mapbox-android-core:1.4.1"
+
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
